@@ -109,5 +109,12 @@ This shows the correlation between all the variables in the merged dataframe
 ![](Heatmap.png)            
 
 # Insights
+- Female unemployment rate is higher than male unemployment rate
+- There is an increase in unemployment rate in 2019 for all regions. There is slight decrease from 2020 in other regions except for Africa
+- Europe has the highest number of operationalized strategies (84) while Africa has the least (15)
+- High number of operationalized strategies, high percentage of population with access to electricity, high total business density rate and share of education in goernment expenditure can be seen to have significantly 
+ contributed in lower unemployment rates in other regions except Africa with the opposite.
+
+- 
 
 # Recommendations
