@@ -115,9 +115,17 @@ To further identify the relationships between the variables, the Pearson correla
 # Insights
 - There is a higher female unemployment rate than male unemployment rate
 - There is an increase in unemployment rate in 2019 for all regions which may be a result of COVID and slight decrease from 2020 in other regions except for Africa
-- Europe has the highest number of operationalized strategies (84) while Africa has the least (15)
-- High number of operationalized strategies, high percentage of population with access to electricity, high total business density rate and share of education in goernment expenditure can be seen to have significantly 
- contributed in lower unemployment rates in other regions except Africa with the opposite.
+- Europe has the highest number of operationalized strategies (84) while Africa has 15. 
+- High number of operationalized strategies, high percentage of population with access to electricity, high total business density rate and share of education in government expenditure can be seen to have significantly 
+ contributed to the lower unemployment rates in other regions particularly Europe.
+- Africa has the average unemployment rate of 8.55%
+- Africa has more adopted strategies than the operationalized ones
+- Djibouti, South Africa and Lesotho have the top 3 highest unemployment rates of 30.19%, 26.92% and 24.49% respectively while Niger, Chad and Rwanda have the lowest of 0.78%,  1.13%, and 1.19% respectively.
+- Seven countries in Africa have operationalized the total of 15 strategies from 2019 where South Africa and Egypt has the highest of 3 each. These countries have high unemployment rates above the average of 8.55% except Ghana and Rwanda with lss than 5%.
+- Ethiopia, Ghana, Zimbabwe and Tunisia have the top four highest percentage (22% to 26%) of government expenditure invested in education. These countries have unemployment rate below average except Tunisia that has higher. 
+-  Somalia and south Sudan have the lowest share and high unemployment rates of 21% and 12.5% respectively.
+-  Countries like Tunisia, Egypt, Mauritius and Algeria have more than 99% of their population with access to electricity and they have unemployment rate above average. South sudan, Burundi and Chad have the lowest of 4.5%, 8.4% and 8.8% respectively of their population with electric access.
+- 
 
 - 
 
