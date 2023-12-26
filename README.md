@@ -7,7 +7,7 @@
 This is a project for the **10Alytics Global Hackathon 2023** which allowed analysts to delve into various datasets to uncover insights and strategies that could assist in mitigating the unemployment crisis in Africa. 
 
 ## Objective
-To analyze data, identify patterns, and propose informed, data-driven recommendations that governments and stakeholders can implement to effectively address and reduce unemployment rates, particularly focusing on the African context.
+To analyze data, identify patterns, and propose informed, data-driven and actionable recommendations that governments and stakeholders can implement to effectively address and reduce unemployment rates, particularly focusing on the African context.
 
 ## Data Description
 Six datasets were provided with each having unique information on the factors influencing unemployment. The datasets are outlined below as described for the hackathon.
@@ -41,76 +41,80 @@ The dataset for the total number of firms had 4 missing values and were dropped 
 
 The exploratory analysis was performed for all the variables by gender, region and countries (in Africa). For recency, the years connsidered in this analysis sttarts from 2010.
 
-### _Exploratory Analysis by Region_
+### _Regional Analysis_
 
-This was performed for the the national strategy, access to electricity, share of education in government expenditure and the business density rates for all the regions to understand their distribution and effect on unemployment rates. Also, the unemployment rate y gender was explored.
-'                                          | '                       | '
-:-----------------------------------------:|:-----------------------:|:-----------------------:
-![](Unemp_by_Gender.png)                  |![](Unemployment_by_region.png) |![](Strategy_by_region.png) 
+Analysis was carried out for a wider context considering all the regions for the effect of access to electricity, share of education in government expenditure, the government startegies and the business density rate on unemployment. Also, the unemployment rate was explored by gender. The Unemployment trend by gender and region are shown below
+'                                          | '                       
+:-----------------------------------------:|:-----------------------:
+![](Unemp_by_Gender.png)                  |![](Unemployment_by_region.png) 
 
-'                                           | '                       | ' 
-:-----------------------------------------:|:-----------------------:|:-----------------------:
-![](Electricity_by_region.png)                  |![](TBDR_by_region.png)  | ![](Share_of_education.png) 
+The percentage of population that have access to electricity is most likely to influence the the number of companies present in a region. The plots below show the percentage of population with access to electricity and the number of registered firms per 1000 working age people in each region.
 
-### _Unemployment Rates in Africa_
-The plots show the top and bottom 10 countries in Africa with the highest and lowest unemployment rates respectively
+'                                           | '                      
+:-----------------------------------------:|:-----------------------:
+![](Electricity_by_region.png)             |![](TBDR_by_region.png)  
+
+The government put in place several strategies to reduce unemployment and also invest certain percentage of their expenditure in education. In this case, the strategies are in 4 categories namely: 0 for no strategy, 1 for developing strategy, 2 for strategy adopted and 3 for the operationalized strategies. The plots below show the distribution of these strategies and the educational expenditure for each region.
+'                                           | '                     
+:-----------------------------------------:|:-----------------------:
+!![](Strategy_by_region.png)               | ![](Share_of_education.png) 
+
+### _Analysis for Africa_
+The main focus of this case study is on the African context. The following analysis were done to determine the effcet of all these variables on unemployment rates in Africa. It has been established in the regional analysis that Africa has the highest unemployment rates. The plots below show the top countries in Africa with the highest and lowest unemployment rates.
 '                                          | '
 :-----------------------------------------:|:-----------------------:
 ![](HighUnemploymentRates.png)             | ![](LowUnemploymentRates.png) 
 
 ### _National Strategies for Youth Employment_
-This has four categories where 0 represents no strategy, 1 represents developing strategy, 2 represents strategy developed and 3 strategy operationalized starting from 2019 to 2022. The plots show the countries with operationalized strategies in Africa and their unemployment rates. The operationalized strategies were focused on because it is expected to have improved unemployment rates.
-To check the effect of the operationalized strategies on employment rates, the countries with operationalized strategies in africa were selected and their corresponding unemployment rates starting from 2018.
+Africa has more of developing and adopted strategy than the operationalized strategies. The operationalized strategies were focused on because it is expected to have improved unemployment rates.
+To check how the operationalized strategies have improved the unemployment rates, the countries with operationalized strategies in africa were selected and their corresponding unemployment rates. The dataset for the strategy starts from 2019, then the unemployment rates from 2018 were considered.
 '                                      | '
 :-----------------------------------------:|:-----------------------:
 ![](StrategiesOperationalized_by_Country.png)| ![](Unemployment_Strategies.png) 
 
 ### _Share of Education in Government Expenditure_
-This shows the percentages of government expenditure that has been invested in education from 2010 for different african countries.  It is shown for the top 10 highest and lowest share and the effect on their unemployment rates
+This shows the percentages of government expenditure that has been invested in education from 2010 for different african countries. The top 10 countries with most share and their unemployment trend are shown below.
 
-African Countries with most share of education in government expenditure and the effect on their unemployment rates
 '                                       | '
 :-----------------------------------------:|:-----------------------:
 ![](High_share_in_expenditure.png)             | ![](UnemploymentRate_high_expenditure.png) 
 
-African Countries with low share of education in government expenditure and the effect on their unemployment rates
+African Countries with low share of education in government expenditure and their unemployment trends are shown below.
 '                                       |'
 :-----------------------------------------:|:-----------------------:
 ![](Low_share_in_government_expenditure.png)             | ![](UnemploymentRate_low_expenditure.png) 
 
 ### _Share of Population with Access to Electricity_
-This describes the percentage of the entire population that have access to electricity in Africa and their unemployment rates           
-
-The top 10 countries in Africa that most percentage of their population have access to electricity and their unemployment trend
+Compared to other regions, Africa has the least percentage of their population with access to electricity. The top 10 countries in Africa that most percentage of their population have access to electricity and their unemployment trends are shown below 
 '                                     | '
 :-----------------------------------------:|:-----------------------:
 ![](High_electricity_access.png)             | ![](UnemploymentRate_high_electricity_access.png) 
 
-The bottom 10 countries in Africa that have low percentage of their population with access to electricity and their unemployment trend
+The bottom 10 countries in Africa that have low percentage of their population with access to electricity and their unemployment trend are shown below.
 
 '                                    |'
 :-----------------------------------------:|:-----------------------:
 ![](Low_electricity_access.png)             | ![](UnemploymentRate_low_electricity_access.png) 
 
 ### _Total Business Density Rates_
-The top 10 number of registered firms per 1,000 working-age people is shown here for countries in Africa and their respective unemployment rates 
+Africa has the least total business density rates when compared to other reions. The top 10 countries in Africa that have high number of registered firms per 1,000 working-age people is shown here and their respective unemployment trends.
 '                                    |'
 :-----------------------------------------:|:-----------------------:
 ![](High_BDR.png)             | ![](UnemploymentRate_high_BDR.png) 
 
-The bottom 10 number of registered firms per 1,000 working-age people is shown here for countries in Africa and their respective unemployment rates 
+The bottom 10 countries in Africa with low number of registered firms per 1,000 working-age people is shown here and their respective unemployment trends
 
 '                                    |'
 :-----------------------------------------:|:-----------------------:
 ![](Low_BDR.png)             | ![](UnemploymentRate_low_BDR.png) 
 
 ### _Relationship between all Variables_
-This shows the correlation between all the variables in the merged dataframe
+To further identify the relationships between the variables, the Pearson correlation codefficient was used to generate the correlation matrix where a positive value indicates a positive linear relationship, a negative value indicates a negative linear relationship, and a value of zero indicates no linear relationship.This is shown in the heatmap below.
 ![](Heatmap.png)            
 
 # Insights
-- Female unemployment rate is higher than male unemployment rate
-- There is an increase in unemployment rate in 2019 for all regions. There is slight decrease from 2020 in other regions except for Africa
+- There is a higher female unemployment rate than male unemployment rate
+- There is an increase in unemployment rate in 2019 for all regions which may be a result of COVID and slight decrease from 2020 in other regions except for Africa
 - Europe has the highest number of operationalized strategies (84) while Africa has the least (15)
 - High number of operationalized strategies, high percentage of population with access to electricity, high total business density rate and share of education in goernment expenditure can be seen to have significantly 
  contributed in lower unemployment rates in other regions except Africa with the opposite.
