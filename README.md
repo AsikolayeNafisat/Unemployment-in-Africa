@@ -4,7 +4,7 @@
 ---
 
 ## Introduction
-This is a project for the **10Alytics Global Hackathon 2023** which allowed analysts to delve into various datasets to uncover insights and strategies that could assist in mitigating the unemployment crisis in Africa. 
+This is a project given for the _**10Alytics Global Hackathon 2023**_ which allowed analysts to delve into various datasets to uncover insights and strategies that could assist in mitigating the unemployment crisis in Africa. 
 
 ## Objective
 To analyze data, identify patterns, and propose informed, data-driven and actionable recommendations that governments and stakeholders can implement to effectively address and reduce unemployment rates, particularly focusing on the African context.
@@ -125,8 +125,19 @@ To further identify the relationships between the variables, the Pearson correla
 - Ethiopia, Ghana, Zimbabwe and Tunisia have the top four highest percentage (22% to 26%) of government expenditure invested in education. These countries have unemployment rate below average except Tunisia that has higher. 
 -  Somalia and south Sudan have the lowest share and high unemployment rates of 21% and 12.5% respectively.
 -  Countries like Tunisia, Egypt, Mauritius and Algeria have more than 99% of their population with access to electricity and they have unemployment rate above average. South sudan, Burundi and Chad have the lowest of 4.5%, 8.4% and 8.8% respectively of their population with electric access.
-- 
+- Botswana and Mauritius have the highest number of registered firms per 1000 working age people of 141 and 71 respectively. Most countries in the top ten have unemployment rate above average indicating that the high number of registered companies have not reduced unemployment rate.
+- The correlation coefficient of  -0.21 suggests that unemployment rate slightly decrease with increase in share of education in government expenditure. Coefficient of 0.43 suggests a positve relationship between unemployment rate and access to electricity. Countries with high electriciy access still have high unemployment rate. The correlation coefficient of 0.32 suggests that unemployment rate increase slightly with increase in total business density rate.
 
-- 
 
 # Recommendations
+- Initiatives targeted towards improving the female unemployment rates should be developed to address the issue of gender disparity in employment oportunities.
+- Recovery strategies should be provided to mitigate the impact of COVID-19 on employment.
+- Increasing the number of operationalized strategies in Africa and also identifying  and adapting the successful approaches from other regions to the African context.
+- Combination of high operationalized strategies, electricity access, total business density rate, and education spending contributes to lower unemployment rates in other regions. Policies that address multiple factors simultaneously should be developed.
+-The slight negative correlation between the share of education in government expenditure and unemployment should be improved by investing more in skills that would make the citizens employers of labour.
+- Electricity access should be improved and strategies to ensure that increasing access to electricity translates to job creation should be put inplace.
+- Collaborate with the business sector to identify ways to optimize the contribution of registered firms to employment generation.
+- Each country have unique circumstances and the interventions should consider the specific challenges and opportunities in each country.
+- The implemented strategies should be monitored and regularly evaluated to assess their effectiveness in reducing the unemployment rates. 
+
+![](thank_you.webp)
